@@ -10,24 +10,242 @@
 </head>
 
 <body>
-  <header class="header">
+  <header class="header container">
+    <div class="header-wrapper">
 
-    <div class="logo-wrapper">
-      <a href="#" style="text-transform: uppercase;">decor</a>
-    </div>
+      <div class="logo-wrapper">
+        <a href="#">decor</a>
+      </div>
 
-    <nav class="nav">
-      <a href="#" class="nav__link"> Catalog </a>
-      <a href="#" class="nav__link"> About </a>
-      <a href="#" class="nav__link"> Account </a>
-    </nav>
+      <nav class="nav">
+        <a href="#catalog" class="nav__link"> Catalog </a>
+        <a href="#about" class="nav__link"> About </a>
+        <a href="#" class="nav__link"> Account </a>
+      </nav>
 
-    <div class="button-wrapper">
-      <div class="cart"></div>
+      <div class="button-wrapper">
+        <a href="#" class="header-button"><img src="./public/search.png" alt=""></a>
+        <a href="#" class="header-button"><img src="./public/cart.png" alt=""></a>
+      </div>
     </div>
   </header>
-  <section class="section-1"></section>
-
+  <section class="section-1 container">
+    <div class="s1-wrapper">
+      <div class="s1-text-wrapper">
+        <h1 class="s1-text">SIMPLE. MODERN</h1>
+      </div>
+      <div class="s1-button-wrapper">
+        <a href="#catalog"><button class="btn-catalog">CATALOG</button></a>
+      </div>
+    </div>
+  </section>
+  <section class="container section-2" id="about">
+    <h2>ABOUT US</h2>
+    <p>Decor Store - Et orci tellus pretium diam. Amet sagittis habitant faucibus enim, cras interdum at. Proin vel
+      tellus diam tortor vulputate nulla nec. Aliquam ornare at commodo eu ut volutpat neque id. Maecenas at et eget
+      pellentesque malesuada convallis. Risus massa, vestibulum tempus vel volutpat. Sollicitudin augue natoque
+      condimentum ornare.
+    </p>
+    <p>
+      Tristique in eget morbi morbi morbi magna donec ut eget. Id nunc maecenas fringilla amet, purus iaculis
+      ullamcorper pellentesque. Eu tristique scelerisque quam tristique quis nunc. Sit quis non nisl suspendisse vitae
+      elementum. Auctor sit scelerisque laoreet massa. quis non nisl suspendisse vitae elementum. Auctor sit
+      scelerisque laoreet massa. Sit quis non nisl suspendisse vitae elementum. Auctor sit scelerisque laoreet massa.
+      quis non nisl suspendisse vitae elementum. Auctor sit scelerisque laoreet massa.
+    </p>
+    <p>
+      Auctor sit scelerisque laoreet massa. quis non nisl suspendisse vitae elementutor. It scelerisque laoreet massa.
+      Sit quis non nisl suspendisse vitae elementum. Auctor sit scelerisque laoreet massa. quis non nisl suspendisse
+      vitae elementum. Auctor sit scelerisque laoreet massa.
+    </p>
+    <button>MORE ABOUT US</button>
+  </section>
+  <section class="section-3 container">
+    <div>
+      <h2>TABLES & CHAIRS</h2>
+      <ul>
+        <li class="s3-list">LAMPS</li>
+        <li class="s3-list">ACCESSORIES</li>
+        <li class="s3-list">CANDLES</li>
+      </ul>
+    </div>
+  </section>
+  <section class="section-4 container" id="catalog">
+    <h2>BEST SELLERS</h2>
+    <div class="products">
+      <div class="product-card">
+        <div class="image-wrapper">
+          <img src="public/product_1.png" alt="">
+        </div>
+        <div class="text-wrapper">
+          <p>MARBLE TABLE</p>
+          <p>$ 200 </p>
+        </div>
+        <div class="plus">+</div>
+      </div>
+      <div class="product-card">
+        <div class="image-wrapper">
+          <img src="./public/product_2.png" alt="">
+        </div>
+        <div class="text-wrapper">
+          <p>MARBLE COFFE TABLE</p>
+          <p>$ 200</p>
+          <div class="plus">+</div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="image-wrapper">
+          <img src="./public/product_3.png" alt="">
+        </div>
+        <div class="text-wrapper">
+          <p>COFFEE TABLE</p>
+          <p>$ 200</p>
+          <div class="plus">+</div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="image-wrapper">
+          <img src="./public/product_4.png" alt="">
+        </div>
+        <div class="text-wrapper">
+          <p>MARBLE COFFE TABLE</p>
+          <p>$ 200</p>
+          <div class="plus">+</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-5 container">
+    <div class="s5-text-wrapper">
+      <h1>SALE -10%</h1>
+      <p>
+        The discount is valid for the purchase of goods in the amount of 1000 UAH, as well as subscribe to our
+        newsletter and be aware of all discounts and promotions
+      </p>
+      <form action="">
+        <input class="input" type="text" placeholder="Enter your email">
+        <button class="subscribe">SUBSCRIBE</button>
+        <br />
+        <input type="checkbox" class="checkbox" id="agree" checked>
+        <label for="agree">I have read and agree with the Privacy Police</label>
+      </form>
+    </div>
+    <div class="s5-img-wrapper">
+      <img src="./public/3.png" alt="">
+    </div>
+  </section>
+  <section class="section-6 container">
+    <h2>NEW COLLECTION</h2>
+    <div class="products">
+      <div class="product-card">
+        <div class="image-wrapper">
+          <img src="public/collection_1.png" alt="">
+        </div>
+        <div class="text-wrapper">
+          <p>SUNBURST CLOCK</p>
+          <p>$ 200 </p>
+        </div>
+        <div class="plus">+</div>
+      </div>
+      <div class="product-card">
+        <div class="image-wrapper">
+          <img src="./public/collection_2.png" alt="">
+        </div>
+        <div class="text-wrapper">
+          <p>CANDLESTICK</p>
+          <p>$ 200</p>
+          <div class="plus">+</div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="image-wrapper">
+          <img src="./public/collection_3.png" alt="">
+        </div>
+        <div class="text-wrapper">
+          <p>CANDLE BLACK</p>
+          <p>$ 200</p>
+          <div class="plus">+</div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="image-wrapper">
+          <img src="./public/collection_4.png" alt="">
+        </div>
+        <div class="text-wrapper">
+          <p>VASE OPENWORK</p>
+          <p>$ 200</p>
+          <div class="plus">+</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-7 container">
+    <h2>GALLERY</h2>
+    <div class="carousel">
+      <div class="img-wrapper"><img src="./public/gallery_1.png" alt=""></div>
+      <div class="img-wrapper"><img src="./public/gallery_2.png" alt=""></div>
+      <div class="img-wrapper"><img src="./public/gallery_1.png" alt=""></div>
+      <div class="img-wrapper"><img src="./public/gallery_3.png" alt=""></div>
+      <div class="right">
+        <p>></p>
+      </div>
+    </div>
+  </section>
+  <footer class="footer container">
+    <hr>
+    <div class="footer-wrapper">
+      <div class="footer-item"><h2>DECOR</h2></div>
+      <div class="footer-item">
+        <h3>INFOMATION</h3>
+        <ul>
+          <li class="footer-list">About</li>
+          <li class="footer-list">Services</li>
+          <li class="footer-list">Wholesale services</li>
+          <li class="footer-list">Corporate social responsibility</li>
+          <li class="footer-list">Privacy policy</li>
+          <li class="footer-list">Contacts</li>
+        </ul>
+      </div>
+      <div class="footer-item">
+        <h3>DELIVERY & PAYMENT</h3>
+        <ul>
+          <li class="footer-list">Delivery</li>
+          <li class="footer-list">Nova Poshta</li>
+          <li class="footer-list payments">
+            <div class="pay-card"><img src="./public/mastercard.png" alt=""></div>
+            <div class="pay-card"><img src="./public/visa.png" alt=""></div>
+            <div class="pay-card"><img src="./public/apple_pay.png" alt=""></div>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-item">
+        <h3>ADDRESS</h3>
+        <ul>
+          <li class="footer-list">Dnipro, Ukraine</li>
+        </ul>
+        <br/>
+        <h3>FOLLOW US</h3>
+        <ul>
+          <li class="footer-item socials">
+            <div class="social"><img src="./public/instagram.svg" alt=""></div>
+            <div class="social"><img src="./public/telegram.png" alt=""></div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <div class="langs">
+      <p>ENG</p>
+      <p>UA</p>
+    </div>
+    <div class="info">
+      <p>Privacy policy</p>
+      <p>Company data</p>
+      <p>All cookies</p>
+      <p>Rules</p>
+    </div>
+    <p>© 2023 All rights reserved.</p>
+  </footer>
 </body>
 
 </html>

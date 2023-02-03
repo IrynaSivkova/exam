@@ -1,5 +1,14 @@
 :root {
     --primary-font: Monsterrat;
-    --primary-font-size: 2rem;
-    --primary-
+    --primary-font-size: 1rem;
+    --primary-font-weight: 400;
+    --primary-color: #FFF;
+    --primary-bg-color: #222222;
+    --x-spacing: 171px;
+    --y-spacing: 100px;
+
+    --secondary-color: #222222;
+    --secondary-bg-color: #FFF;
+
+    --back-color: #B4B4B4;
 }
