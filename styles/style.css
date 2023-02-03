@@ -114,7 +114,7 @@ body {
 
 .s1-wrapper {
     position: absolute;
-    top: 22rem;
+    top: 25vh;
     width: 310px;
     color: var(--primary-color);
     display: grid;
